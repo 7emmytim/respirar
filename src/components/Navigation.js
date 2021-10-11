@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import inspirar_logo from '../assets/img/inspirar_trademark.png'
 
 const Navigation = () => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
+          <Link className='navbar-brand page-scroll' to='/'>
+            {/* Inspirar actors & learners */}
+            <img src={inspirar_logo} alt='inspirar' style={{ width: '10vh' }} />
+          </Link>{' '}
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -18,16 +23,13 @@ const Navigation = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <Link className='navbar-brand page-scroll' to='/'>
-            Inspirar
-          </Link>{' '}
         </div>
 
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
-          <ul className='nav navbar-nav navbar-right' style={{textAlign: 'center'}}>
+          <ul className='nav navbar-nav navbar-right' style={{ textAlign: 'center' }}>
             <li>
               <NavLink exact to='/' activeStyle={{ borderBottom: '2px solid #608dfd' }} className='page-scroll'>
                 Home

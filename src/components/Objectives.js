@@ -1,5 +1,5 @@
 import React from 'react'
-import disp_image from '../assets/img/about3.jpg'
+import disp_image from '../assets/img/about4.jpg'
 
 const Objectives = () => {
 

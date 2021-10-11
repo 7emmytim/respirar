@@ -8,7 +8,7 @@ const Overview = () => {
               <div className="col-xs-12 col-md-12">
                 <div className="about-text">
                   <h2>BRIEF OVERVIEW</h2>
-                  <p>Inspirar Actors and Learners is a subsidiary of INSPIRAR EDUCATIONAL CONCEPTS LIMITED, an educational service organisation registered
+                  <p style={{ textAlign: 'justify' }}>Inspirar Actors and Learners is a subsidiary of INSPIRAR EDUCATIONAL CONCEPTS LIMITED, an educational service organisation registered
                     under the Laws of the Federal Republic of Nigeria with the Corporate Affairs Commission (CAC) on October 23, 2020.
                     The company exists to provide qualitative, cutting-edge educational resources.
                     One of the educational products of INSPIRAR EDUCATIONAL CONCEPTS LIMITED is “Inspirar Actors and Learners”, an initiative that crisscrosses education and entertainment.

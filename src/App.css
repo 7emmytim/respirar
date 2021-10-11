@@ -601,7 +601,18 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+@media (max-width: 968px) {
+
+  #menu a.navbar-brand {
+    /* font-size: 14px; */
+  }
+}
+
 @media (max-width: 600px) {
+
+  #menu a.navbar-brand {
+    font-size: 14px;
+  }
 
   header .intro-text {
     padding-top: 60%;

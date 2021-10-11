@@ -1,4 +1,5 @@
 import React from 'react'
+import disp_image from '../assets/img/about3.jpg'
 
 const Objectives = () => {
 
@@ -28,7 +29,7 @@ const Objectives = () => {
                     </div>
                     <div className="col-xs-12 col-md-6">
                         {" "}
-                        <img src="img/about3.jpg" className="img-responsive" alt="" />{" "}
+                        <img src={disp_image} className="img-responsive" alt="" />{" "}
                     </div>
 
                 </div>

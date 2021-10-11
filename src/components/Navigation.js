@@ -27,7 +27,7 @@ const Navigation = () => {
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
-          <ul className='nav navbar-nav navbar-right'>
+          <ul className='nav navbar-nav navbar-right' style={{textAlign: 'center'}}>
             <li>
               <NavLink exact to='/' activeStyle={{ borderBottom: '2px solid #608dfd' }} className='page-scroll'>
                 Home

@@ -9,8 +9,8 @@ const Header = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
-                <h1>ACTORS & LEARNERS<span></span></h1>
-                <p>Inspirar, Making learning fun.</p>
+                <h1>INSPIRAR ACTORS & LEARNERS<span></span></h1>
+                <p>Making learning real fun.</p>
                 <Link to='/about' className='btn btn-custom btn-lg page-scroll'>Learn More</Link>{' '}
               </div>
             </div>

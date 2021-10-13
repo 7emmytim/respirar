@@ -7,16 +7,18 @@ const Navigation = () => {
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
-          <Link className='navbar-brand page-scroll' to='/' style={{marginBottom: '10px'}}>
-            {/* Inspirar actors & learners */}
-            <img src={inspirar_logo} alt='inspirar' style={{ width: '15vh', height: '40px' }} />
-          </Link>{' '}
+          <div>
+            <Link className='navbar-brand page-scroll' to='/' style={{ marginBottom: '50px' }}>
+              {/* Inspirar actors & learners */}
+              <img src={inspirar_logo} alt='inspirar' style={{ width: '25vh' }} />
+            </Link>{' '}
+          </div>
           <button
             type='button'
             className='navbar-toggle collapsed'
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
-            style={{marginTop: '20px'}}
+            style={{ marginTop: '30px' }}
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
@@ -30,7 +32,7 @@ const Navigation = () => {
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
-          <ul className='nav navbar-nav navbar-right' style={{ textAlign: 'center' }}>
+          <ul className='nav navbar-nav navbar-right' style={{ textAlign: 'center', marginTop: '20px' }}>
             <li>
               <NavLink exact to='/' activeStyle={{ borderBottom: '2px solid #608dfd' }} className='page-scroll'>
                 HOME

@@ -18,7 +18,7 @@ const Vision = () => {
                             <h2>VISION</h2>
                             <p>The vision of “Actors and Learners” is: “Making learning real fun; making you yearn for more”</p>
                             <h2>MISSION</h2>
-                            <p>The Mission of “Actors and Learners” involves the following;</p>
+                            <p>The Mission of “Actors and Learners” is:</p>
                             <div className="list-style">
                                 <div className="col-lg-12 col-sm-12 col-xs-12">
                                     <ul>

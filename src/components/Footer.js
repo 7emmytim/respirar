@@ -13,7 +13,9 @@ const Footer = () => {
                 </div>
                 <div className='col-md-6'>
                     <p style={{ marginTop: '20px' }}>
-                        You have any questions or queries, send us a mail <a href='mailto:actorsandlearners@gmail.com'>actorsandlearners@gmail.com</a>
+                        You have any questions or queries, send us a mail <br /> <a href='mailto:info@actorsandlearners.com'>info@actorsandlearners.com</a> <br />
+                        <a href='mailto:support@actorsandlearners.com'>support@actorsandlearners.com</a> <br />
+                        <a href='mailto:contact@actorsandlearners.com'>contact@actorsandlearners.com</a>
                     </p>
                 </div>
             </div>

@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Navigation from './components/Navigation'
-import SmoothScroll from 'smooth-scroll'
-import './App.css'
-import Home from './pages/Home'
-import About from './pages/About'
-import Movies from './pages/Movies'
-import Faqs from './pages/Faqs'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import SmoothScroll from 'smooth-scroll';
+import './App.css';
+import Home from './pages/Home';
+import About from './pages/About';
+import Movies from './pages/Movies';
+import Faqs from './pages/Faqs';
+import Footer from './components/Footer';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,

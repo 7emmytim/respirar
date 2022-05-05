@@ -40,7 +40,7 @@ const Navigation = () => {
             </li>
             <li>
               <NavLink to='/about' activeStyle={{ borderBottom: '2px solid #608dfd' }} className='page-scroll'>
-                ABOUT
+                ABOUT US
               </NavLink>
             </li>
             <li>
